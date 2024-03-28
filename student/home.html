@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiki Clone</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <img src="assests/Wikipedia-logo-transparent.png" alt="" height="75px;" width="75px;">
+        <div class="header-container">
+            <h1 style="font-size: 24px; font-weight: bold;">Search What you want</h1>
+            <span id="theme-toggler" style="font-size: 16px;">Light</span>
+        </div>
+
+        <form id="search-form" style="margin-top: 20px;">
+            <input type="text" id="search-input" placeholder="Enter search term"
+                style="padding: 10px; font-size: 16px;">
+            <button type="submit" style="padding: 10px 20px; font-size: 16px;">Search</button>
+        </form>
+
+        <div class="resultcard" style="margin-top: 20px;">
+            <div>
+                <div id="search-results" style="margin: 30px 20px 10px 15px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

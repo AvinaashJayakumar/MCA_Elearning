@@ -1,0 +1,1 @@
+<h1>Welcome to <span style="color: rgb(136, 119, 18);font-weight:bold;"><?php echo $_settings->info('name') ?></span></h1>
